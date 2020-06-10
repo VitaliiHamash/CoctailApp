@@ -1,0 +1,290 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:1:1-37:12
+INJECTED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:1:1-37:12
+INJECTED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:1:1-37:12
+INJECTED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:1:1-37:12
+MERGED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:1:1-37:12
+MERGED from [:react-native-community_masked-view] /home/vitalii/myDates/Apps/CocktailApp/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-gesture-handler] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-image-picker] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-21:12
+MERGED from [:react-native-reanimated] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-splash-screen] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
+MERGED from [:react-native-vector-icons] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.61.5] /home/vitalii/.gradle/caches/transforms-2/files-2.1/2c6ff528ec42990bf9a0b01e5f7f4d6e/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.material:material:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/33a89a715da7d5ef033d03eecf35e39d/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/581076caa4eafaba8031f197939dcba6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02] /home/vitalii/.gradle/caches/transforms-2/files-2.1/9a85dd2a8d225bf4bf34af62f946556c/AndroidManifest.xml:17:1-24:12
+MERGED from [org.webkit:android-jsc:r245459] /home/vitalii/.gradle/caches/transforms-2/files-2.1/d55ccd62b755ee878cd91ffb29d07d3b/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/9c88285a9069a81834e72d3350ab9dc9/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/1fa7586e6063c74717052d509d230bda/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/5e28b14aa3a74c87671d440971f078f4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/da652f5a38fce0b4d680d0c6221cecf8/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/a32dd80cbdf293f3229b321346300665/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/8d15cb46795125ee6238fea248ed02a5/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/b519088202c01ffe5a1b0a171d2c44f1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/3a5cfa69410e810d98c96b928bac6360/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/71ea2edc2d30cee7336b49a566c5785d/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/ee2486cce954fc610d19d3d9b046b2e5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/b6485f3cd5087095a20b27780d8774f6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/45f81f3fbcec33f7e64c2086545a724f/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.1] /home/vitalii/.gradle/caches/transforms-2/files-2.1/c380e57de8f13fbb03281c6c3849ef4e/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/0d0a763a59d3b698b0e3dba4c2c8ced3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/d8c62770b92668b0b212d317f1f0ba69/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/2f6becad1e24b65e67a50fb68590d69d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/e98417a952ffdc1cc3fdf170c075a131/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/8c47a2f4c53f18eaf7d6fb1062ce0150/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/d55a75fbdddb8de2317bb61d5031216c/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/ee655aab316b932ce74d5a05bc7687cb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/c41b6bf40265781b9cdeeae73d0f0fe3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/00254088a9ca0a4a5f3a25d52df59dfb/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/8aec76e53b8aa4f3e7e06b21c1ec695f/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/d2f115ca84f92219b2aef3b51ac7c8ba/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/ea94a0d63a508a1b2b5637c65fa35fff/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/879bb4c99d90bef52877817292b6163c/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/f8be33cc68a8030db7dad3f0a33cbf15/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/a605f4faaa7221f45956abf063f26e7c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/4a94b167c586dee2b555e6ffe429beba/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/d466eae5ac8b3e5635e83311bf7de205/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/b475bd326f34d82d38026082c1b2a5fd/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/86f7f34fac7288735224853b14c9537b/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/63e2b8b0511fb18d4c31cf5bdc83f33a/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/f8e1040d748814981deb88ed60ffcc55/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+	package
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:2:3-28
+		INJECTED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:2:3-28
+		INJECTED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:1:1-37:12
+		INJECTED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/debug/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:1:1-37:12
+		INJECTED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:5:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:6:22-78
+application
+ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:8:5-35:19
+MERGED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:8:5-35:19
+MERGED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:8:5-35:19
+MERGED from [:react-native-image-picker] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-image-picker] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-splash-screen] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-12:19
+MERGED from [:react-native-splash-screen] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-12:19
+MERGED from [com.facebook.react:react-native:0.61.5] /home/vitalii/.gradle/caches/transforms-2/files-2.1/2c6ff528ec42990bf9a0b01e5f7f4d6e/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] /home/vitalii/.gradle/caches/transforms-2/files-2.1/2c6ff528ec42990bf9a0b01e5f7f4d6e/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/33a89a715da7d5ef033d03eecf35e39d/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/33a89a715da7d5ef033d03eecf35e39d/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/3a5cfa69410e810d98c96b928bac6360/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/3a5cfa69410e810d98c96b928bac6360/AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/8aec76e53b8aa4f3e7e06b21c1ec695f/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/8aec76e53b8aa4f3e7e06b21c1ec695f/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/ea94a0d63a508a1b2b5637c65fa35fff/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/ea94a0d63a508a1b2b5637c65fa35fff/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/8aec76e53b8aa4f3e7e06b21c1ec695f/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:10:7-39
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:10:7-39
+	tools:ignore
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/debug/AndroidManifest.xml:7:75-114
+	android:roundIcon
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:12:7-52
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:12:7-52
+	tools:targetApi
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/debug/AndroidManifest.xml:7:54-74
+	android:icon
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:11:7-41
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:11:7-41
+	android:allowBackup
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:13:7-34
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:13:7-34
+	android:theme
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:14:7-38
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:14:7-38
+	android:usesCleartextTraffic
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/debug/AndroidManifest.xml:7:18-53
+	android:name
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:9:7-38
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:9:7-38
+activity#com.navigation5.SplashActivity
+ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:15:9-23:20
+	android:label
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:18:13-45
+	android:theme
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:17:13-47
+	android:name
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:16:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:19:13-22:29
+action#android.intent.action.MAIN
+ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:21:27-74
+activity#com.navigation5.MainActivity
+ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:25:5-33:18
+	android:label
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:27:9-41
+	android:windowSoftInputMode
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:29:9-51
+	android:exported
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:30:9-32
+	android:configChanges
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:28:9-79
+	android:name
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:26:9-37
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:34:7-84
+	android:name
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml:34:17-81
+uses-sdk
+INJECTED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-community_masked-view] /home/vitalii/myDates/Apps/CocktailApp/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /home/vitalii/myDates/Apps/CocktailApp/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-splash-screen] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-splash-screen] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /home/vitalii/.gradle/caches/transforms-2/files-2.1/2c6ff528ec42990bf9a0b01e5f7f4d6e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /home/vitalii/.gradle/caches/transforms-2/files-2.1/2c6ff528ec42990bf9a0b01e5f7f4d6e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/33a89a715da7d5ef033d03eecf35e39d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/33a89a715da7d5ef033d03eecf35e39d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/581076caa4eafaba8031f197939dcba6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/581076caa4eafaba8031f197939dcba6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02] /home/vitalii/.gradle/caches/transforms-2/files-2.1/9a85dd2a8d225bf4bf34af62f946556c/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02] /home/vitalii/.gradle/caches/transforms-2/files-2.1/9a85dd2a8d225bf4bf34af62f946556c/AndroidManifest.xml:20:5-22:41
+MERGED from [org.webkit:android-jsc:r245459] /home/vitalii/.gradle/caches/transforms-2/files-2.1/d55ccd62b755ee878cd91ffb29d07d3b/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /home/vitalii/.gradle/caches/transforms-2/files-2.1/d55ccd62b755ee878cd91ffb29d07d3b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/9c88285a9069a81834e72d3350ab9dc9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/9c88285a9069a81834e72d3350ab9dc9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/1fa7586e6063c74717052d509d230bda/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/1fa7586e6063c74717052d509d230bda/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/5e28b14aa3a74c87671d440971f078f4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/5e28b14aa3a74c87671d440971f078f4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/da652f5a38fce0b4d680d0c6221cecf8/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/da652f5a38fce0b4d680d0c6221cecf8/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/a32dd80cbdf293f3229b321346300665/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/a32dd80cbdf293f3229b321346300665/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/8d15cb46795125ee6238fea248ed02a5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/8d15cb46795125ee6238fea248ed02a5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/b519088202c01ffe5a1b0a171d2c44f1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/b519088202c01ffe5a1b0a171d2c44f1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/3a5cfa69410e810d98c96b928bac6360/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/3a5cfa69410e810d98c96b928bac6360/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/71ea2edc2d30cee7336b49a566c5785d/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/71ea2edc2d30cee7336b49a566c5785d/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/ee2486cce954fc610d19d3d9b046b2e5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/ee2486cce954fc610d19d3d9b046b2e5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/b6485f3cd5087095a20b27780d8774f6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/b6485f3cd5087095a20b27780d8774f6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/45f81f3fbcec33f7e64c2086545a724f/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/45f81f3fbcec33f7e64c2086545a724f/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /home/vitalii/.gradle/caches/transforms-2/files-2.1/c380e57de8f13fbb03281c6c3849ef4e/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /home/vitalii/.gradle/caches/transforms-2/files-2.1/c380e57de8f13fbb03281c6c3849ef4e/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/0d0a763a59d3b698b0e3dba4c2c8ced3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/0d0a763a59d3b698b0e3dba4c2c8ced3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/d8c62770b92668b0b212d317f1f0ba69/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/d8c62770b92668b0b212d317f1f0ba69/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/2f6becad1e24b65e67a50fb68590d69d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/2f6becad1e24b65e67a50fb68590d69d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/e98417a952ffdc1cc3fdf170c075a131/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/e98417a952ffdc1cc3fdf170c075a131/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/8c47a2f4c53f18eaf7d6fb1062ce0150/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/8c47a2f4c53f18eaf7d6fb1062ce0150/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/d55a75fbdddb8de2317bb61d5031216c/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/d55a75fbdddb8de2317bb61d5031216c/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/ee655aab316b932ce74d5a05bc7687cb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/ee655aab316b932ce74d5a05bc7687cb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/c41b6bf40265781b9cdeeae73d0f0fe3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/c41b6bf40265781b9cdeeae73d0f0fe3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/00254088a9ca0a4a5f3a25d52df59dfb/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/00254088a9ca0a4a5f3a25d52df59dfb/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/8aec76e53b8aa4f3e7e06b21c1ec695f/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/8aec76e53b8aa4f3e7e06b21c1ec695f/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/d2f115ca84f92219b2aef3b51ac7c8ba/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/d2f115ca84f92219b2aef3b51ac7c8ba/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/ea94a0d63a508a1b2b5637c65fa35fff/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/ea94a0d63a508a1b2b5637c65fa35fff/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/879bb4c99d90bef52877817292b6163c/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/879bb4c99d90bef52877817292b6163c/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/f8be33cc68a8030db7dad3f0a33cbf15/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/f8be33cc68a8030db7dad3f0a33cbf15/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/a605f4faaa7221f45956abf063f26e7c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/a605f4faaa7221f45956abf063f26e7c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/4a94b167c586dee2b555e6ffe429beba/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/4a94b167c586dee2b555e6ffe429beba/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/d466eae5ac8b3e5635e83311bf7de205/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/d466eae5ac8b3e5635e83311bf7de205/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/b475bd326f34d82d38026082c1b2a5fd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/b475bd326f34d82d38026082c1b2a5fd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/86f7f34fac7288735224853b14c9537b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/86f7f34fac7288735224853b14c9537b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/63e2b8b0511fb18d4c31cf5bdc83f33a/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/63e2b8b0511fb18d4c31cf5bdc83f33a/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/f8e1040d748814981deb88ed60ffcc55/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/vitalii/.gradle/caches/transforms-2/files-2.1/f8e1040d748814981deb88ed60ffcc55/AndroidManifest.xml:5:5-7:41
+INJECTED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /home/vitalii/myDates/Apps/CocktailApp/android/app/src/debug/AndroidManifest.xml:5:22-75
+provider#com.imagepicker.FileProvider
+ADDED from [:react-native-image-picker] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-60
+	android:exported
+		ADDED from [:react-native-image-picker] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:react-native-image-picker] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-56
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-picker] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+	android:resource
+		ADDED from [:react-native-image-picker] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+	android:name
+		ADDED from [:react-native-image-picker] /home/vitalii/myDates/Apps/CocktailApp/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
