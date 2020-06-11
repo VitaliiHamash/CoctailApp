@@ -2,18 +2,17 @@ import React,{Component} from 'react';
 import SplashScreen from 'react-native-splash-screen';
 
 
-import FoodForm from './app/src/foodForm';
-import FoodList from './app/src/foodList';
+import CoctailList from './app/src/coctailList';
+import filterList from './app/src/filters';
 
 
 import {NavigationContainer} from '@react-navigation/native';
+import {createStackNavigator} from '@react-navigation/stack'
 
-import {createMaterialBottomTabNavigator} from '@react-navigation/material-bottom-tabs';
-
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+const Stack = createStackNavigator();
 
 
-const MaterialBottomTabs = createMaterialBottomTabNavigator();
+
 
 export default class App extends Component {
 
@@ -25,30 +24,23 @@ export default class App extends Component {
     render(){
         return(
             <NavigationContainer>
+                        <Stack.Navigator screenOptions={{
+                                    headerShown: false
+                                  }}>
+                        <Stack.Screen
+                            name="Drinks"
+                            component={CoctailList}
+                          
+                        />
+                        <Stack.Screen
+                            name="Filters"
+                            component={filterList}
+                            options={{
+                            title: "Filters"
+                            }}
+                        />
+                        </Stack.Navigator>
                     
-                    <MaterialBottomTabs.Navigator
-                            initialRouteName="Home"
-                            activeColor="#f0edf6"
-                            inactiveColor="#3e2465"
-                            barStyle={{ backgroundColor: '#7e00ff' }}>
-                                        <MaterialBottomTabs.Screen
-                                        name="Food Form"
-                                        component={FoodForm}
-                                        options={{tabBarLabel: 'Add Photo',
-                                        tabBarIcon: () => (
-                                            <Icon style={[{ color: 'white' }]} size={23} name={'image-plus'} />
-                                        ),}}
-                                        />
-                                        
-                                        <MaterialBottomTabs.Screen
-                                        name="Food List"
-                                        component={FoodList}
-                                        options={{tabBarLabel: 'Gallery',
-                                        tabBarIcon: () => (
-                                            <Icon style={[{ color: 'white' }]} size={26} name={'image-search-outline'} />
-                                        ),}}
-                                        />
-                     </MaterialBottomTabs.Navigator>
                     
             </NavigationContainer>
         );

@@ -1,2 +1,3 @@
 export const ADD_FOOD = 'ADD_FOOD';
 export const DELETE_FOOD = 'DELETE_FOOD';
+export const ADD_LOCAL_STORED_FOOD_LIST = 'ADD_LOCAL_STORED_FOOD_LIST';

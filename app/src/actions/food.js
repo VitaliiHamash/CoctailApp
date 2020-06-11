@@ -1,4 +1,4 @@
-import {ADD_FOOD, DELETE_FOOD} from './types';
+import {ADD_FOOD, DELETE_FOOD, ADD_LOCAL_STORED_FOOD_LIST} from './types';
 
 export const addFood = (food) => (
     {
@@ -8,9 +8,17 @@ export const addFood = (food) => (
 );
 
 
-export  const  deleteFood = (key) => (
+export const  deleteFood = (key) => (
     {
         type: DELETE_FOOD,
         key: key
     }
 );
+
+
+export const  addAllFoods = (foodStore) => (
+    {
+         type: ADD_LOCAL_STORED_FOOD_LIST,
+         list: foodStore
+    }
+ );
