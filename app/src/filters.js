@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 
 import { connect } from 'react-redux';
 import { fetchUsers } from './actions/user';
+import { addFood } from './actions/food';
+
 import {styles} from './styles/styles'
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import {
@@ -16,58 +18,72 @@ import { CheckBox } from 'react-native-elements'
 
 class filterList extends Component {
 
-    state = {
-        Ordinary_Drink : true,
-        Cocktail: true,
-        Milk_Float_Shake: true,// c=Milk / Float / Shake
-        Other_Unknown: true, // c=Other/Unknown
-        Cocoa: true,
-        Shot: true,
-        Coffee_Tea: true, // c=Coffee / Tea
-        Homemade_Liqueur: true,
-        Beer: true,
-        Punch_Party_Drink:true,                  // c=Punch / Party Drink
-        
+
+  constructor(props){
+    super(props);
+    this.state = {
+      Ordinary_Drink : true,
+      Cocktail: true,
+      Milk_Float_Shake: true,// c=Milk / Float / Shake
+      Other_Unknown: true, // c=Other/Unknown
+      Cocoa: true,
+      Shot: true,
+      Coffee_Tea: true, // c=Coffee / Tea
+      Homemade_Liqueur: true,
+      Beer: true,
+      Punch_Party_Drink:true,                  // c=Punch / Party Drink
     }
+    this.handleFilters = this.handleFilters.bind(this)
+    this.returnState = this.returnState.bind(this)
+  }
+
+returnState(){
+  return this.state
+}
 
 
 handleFilters(){
-  const filterList = []
-  for (const property in this.state) {
-    if (this.state[property] = true){
-          if (property == Ordinary_Drink) {
+  let data = this.returnState() 
+  console.log(data) 
+  let filterList = []
+  
+  for (const property in data) {
+    if (data[property] == true){
+          if (property == 'Ordinary_Drink') {
             filterList.push('Ordinary_Drink')
-          }
-          if (property == Cocktail) {
+          } 
+          if (property == 'Cocktail') {
             filterList.push('Cocktail')
           }
-          if (property == Milk_Float_Shake) {
+          if (property == 'Milk_Float_Shake') {
             filterList.push('Milk / Float / Shake')
           }
-          if (property == Other_Unknown) {
+          if (property == 'Other_Unknown') {
             filterList.push('Other/Unknown')
           }
-          if (property == Cocoa) {
+          if (property == 'Cocoa') {
             filterList.push('Cocoa')
           }
-          if (property == Shot) {
+          if (property == 'Shot') {
             filterList.push('Shot')
           }
-          if (property == Coffee_Tea) {
+          if (property == 'Coffee_Tea') {
             filterList.push('Coffee / Tea')
           }
-          if (property == Homemade_Liqueur) {
+          if (property == 'Homemade_Liqueur') {
             filterList.push('Homemade_Liqueur')
           }
-          if (property == Beer) {
+          if (property == 'Beer') {
             filterList.push('Beer')
           }
-          if (property == Punch_Party_Drink) {
+          if (property == 'Punch_Party_Drink') {
             filterList.push('Punch_Party_Drink')
           }
     }
   }
-  this.props.all(filterList);
+  console.log(filterList)
+  
+  this.props.add(filterList);
 }
 
 
@@ -158,7 +174,7 @@ const  mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
     return {
         fetchUsers:(filters)=> dispatch(fetchUsers(filters)),
-        all:(foodStore) => dispatch(addAllFoods(foodStore)),
+        add: (food) => dispatch(addFood(food)),
         delete: (key) => dispatch(deleteFood(key)),
     }
   }

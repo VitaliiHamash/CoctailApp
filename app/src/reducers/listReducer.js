@@ -19,14 +19,17 @@ import {
         }
       case FETCH_USERS_SUCCESS:
         return {
+          
           loading: false,
-          users: action.payload,
-          error: ''
+          users: state.users.concat(action.payload),
+          error: '',
+          refreshing: false
         }
       case FETCH_USERS_FAILURE:
         return {
+          ...state,
           loading: false,
-          users: [],
+          
           error: action.payload
         }
       default: return state

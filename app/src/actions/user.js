@@ -12,7 +12,8 @@ export const fetchUsers = (filters) => {
       .get(`https://www.thecocktaildb.com/api/json/v1/1/filter.php?c=`+ `${filters}`) 
       .then(response => {
         // response.data is the users
-        const users = response.data
+        const users = {title:filters,data:response.data.drinks}
+        
         dispatch(fetchUsersSuccess(users))
       })
       .catch(error => {

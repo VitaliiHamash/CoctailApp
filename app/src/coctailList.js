@@ -20,8 +20,11 @@ class CoctailList extends React.Component {
   constructor(props){
     super(props)
     this.state= {
-      filters : 'Punch / Party Drink',
-      Ordinary_Drink: []
+      filters : ['Punch / Party Drink','Ordinary_Drink'],
+      page : 0,
+      refreshing : false,
+      
+
 
     }
   }
@@ -29,12 +32,26 @@ class CoctailList extends React.Component {
 
 
   componentDidMount(){
-    this.props.fetchUsers(this.state.filters)
-    this.state.Ordinary_Drink = this.props.list.users.drinks
-    setTimeout(() => {
-      console.log(this.state)
-    }, 2000)
-   
+  
+    this.props.fetchUsers('Punch / Party Drink')
+    
+  }
+
+  handleRefresh = () => {
+    this.setState({
+      page:0,
+      refreshing: true,
+   }, () => {
+    this.props.fetchUsers('Punch / Party Drink')
+   } )
+  }
+
+  handleLoadMore = () =>{
+     this.setState({
+      page: this.state.page + 1,
+     }, () => {
+       this.props.fetchUsers('Ordinary_Drink')
+     })
   }
 
 
@@ -42,39 +59,50 @@ class CoctailList extends React.Component {
 
   render() {
     
-    
-
-    return this.props.list.loading == true ? (
-    <Text>Loading</Text>
-  ) : (
-    <View>
-    {this.props.list.users !== false && this.props.list.users.drinks && (
-       <SectionList
-       sections={[
-         { title: 'Ordinary Drinks', data: this.props.list.users.drinks },
-        //  { title: 'Cocktail', data: completedTasks },
-       ]}
-       renderItem={({ item }) => (
-         <View style={styles.row}>
-           <Text>{item.strDrink}</Text>
-           {/* <Image style={{width:40, height:40}} source={{uri:item.strDrinkThumb}} /> */}
-         </View>
-       )}
-       renderSectionHeader={({ section }) => (
-         <View style={styles.sectionHeader}>
-           <Text style={styles.text}>{section.title}</Text>
-            
-         </View>
-       )}
-       keyExtractor={item => item.idDrink}
-       
+    return (
+      <SafeAreaView>
+            <Text style={{textAlign: 'left',fontSize: 30, marginRight:10,marginBottom:15,marginLeft:10}}>Drinks</Text>
+            <Icon style={[{ color: 'black', marginBottom:15,marginLeft:10}]}
+                  size={32} name={'filter'}
+                  onPress={() => this.props.navigation.navigate('Filters')}/>
+      {this.props.list.loading == true ? (
+      <Text>Loading</Text>
+    ) : (
+      <View>
+      {this.props.list.users !== false && this.props.list.users[1].data.drinks && (
+         <SectionList
+         sections={[
+          { title: 'Ordinary Drinks', data: this.props.list.users[1].data.drinks },
+           
+           
+         ]}
+         renderItem={({ item }) => (
+           <View style={styles.row}>
+             <Text>{item.strDrink}</Text>
+             {/* <Image style={{width:40, height:40}} source={{uri:item.strDrinkThumb}} /> */}
+           </View>
+         )}
+         renderSectionHeader={({ section }) => (
+           <View style={styles.sectionHeader}>
+             <Text style={styles.text}>{section.title}</Text>
+              
+           </View>
+         )}
+         keyExtractor={item => item.idDrink}
+         refreshing={this.state.refreshing}
+         onRefresh={this.handleRefresh}
+         onEndReached={this.handleLoadMore}
+         onEndReachedThreshold={0}  
          
+        />
        
-      />
-     
-      )}
-    </View>
-  )
+        )}
+      </View>
+    )}
+      </SafeAreaView>
+    )
+
+    
        
   
       
@@ -86,7 +114,8 @@ class CoctailList extends React.Component {
 const  mapStateToProps = (state) => {
   console.log(state)
     return {
-        list: state.listReducer
+        list: state.listReducer,
+        user: state.userReducuer
     }
   }
   
