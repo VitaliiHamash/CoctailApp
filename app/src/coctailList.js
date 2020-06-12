@@ -20,7 +20,7 @@ class CoctailList extends React.Component {
   constructor(props){
     super(props)
     this.state= {
-      filters : ['Punch / Party Drink','Ordinary_Drink'],
+      filters : this.props.food.name, // We can add from this.props.food after APPLY button on filter.js
       page : 0,
       refreshing : false,
       
@@ -69,17 +69,17 @@ class CoctailList extends React.Component {
       <Text>Loading</Text>
     ) : (
       <View>
-      {this.props.list.users !== false && this.props.list.users[1].data.drinks && (
+      {this.props.list.users[1] !== false && (
          <SectionList
          sections={[
-          { title: 'Ordinary Drinks', data: this.props.list.users[1].data.drinks },
+          { title: 'Ordinary Drinks', data: this.props.list.users[1].data },
            
            
          ]}
          renderItem={({ item }) => (
            <View style={styles.row}>
              <Text>{item.strDrink}</Text>
-             {/* <Image style={{width:40, height:40}} source={{uri:item.strDrinkThumb}} /> */}
+             <Image style={{width:20, height:20}} source={{uri:item.strDrinkThumb}} />
            </View>
          )}
          renderSectionHeader={({ section }) => (
@@ -115,7 +115,7 @@ const  mapStateToProps = (state) => {
   console.log(state)
     return {
         list: state.listReducer,
-        user: state.userReducuer
+        food: state.foodReducer.foodList
     }
   }
   
